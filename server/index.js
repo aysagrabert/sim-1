@@ -19,5 +19,8 @@ massive(CONNECTION_STRING)
 
 
     //endpoints
-    app.get('/api/products', ctrl.getProducts)
+    app.get('/api/products', ctrl.getProducts);
+    app.post('/api/products', ctrl.addProducts);
+    app.put('/api/products/:products_id', ctrl.updateProducts);
+    app.delete('/api/products/:products_id', ctrl.deleteProducts);
 

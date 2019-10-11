@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, {Component} from 'react';
+import axios from 'axios';
 function Form() {
   return (
     <div className='Form'>
