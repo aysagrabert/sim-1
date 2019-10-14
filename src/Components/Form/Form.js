@@ -1,6 +1,7 @@
 import React from "react";
+import Form from '../Form/Form.css'
 
-function Form() {
+function form() {
   return (
     <div className='Form'>
     Form
@@ -21,4 +22,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default form;

@@ -1,0 +1,48 @@
+.top {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(161, 40, 25);
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+
+}
+
+.logo-box {
+    height: 10vh;
+    width: 20vw;
+  
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    
+    font-size: 28px;
+    color: white;
+}
+
+.button-box {
+    height: 10vh;
+    width: 20vw;
+ 
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+}
+
+.buttons {
+    font-size: 24px;
+    background-color: hsl(7, 80%, 64%);
+    border: 0;
+    border-radius: 7px;
+}

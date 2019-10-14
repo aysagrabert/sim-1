@@ -4,6 +4,8 @@ function Product() {
   return (
     <div className='Product'>
         Product
+        <button>Delete</button>
+        <button>Edit</button>
     </div>
   );
 }
